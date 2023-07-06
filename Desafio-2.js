@@ -1,5 +1,5 @@
-/* Nesta versão, o espaço em branco " " não é considerado
-como duplicata, por isso pode ser repetido */
+/* Nesa versão, o espaço em branco (" ") é considerado
+como duplicata, por isso, não é repetido mais de uma vez */
 
 function removeDuplicates(str) {
     const uniqueChars = new Set();
@@ -15,4 +15,4 @@ function removeDuplicates(str) {
   
   const userInput = prompt("Digite a frase: ");
   const finalOutput = removeDuplicates(userInput);
-  console.log(finalOutput); 
+  console.log(finalOutput);
