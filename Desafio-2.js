@@ -1,4 +1,4 @@
-/* Nesa versão, o espaço em branco (" ") é considerado
+/* Nessa versão, o espaço em branco (" ") é considerado
 como duplicata, por isso, não é repetido mais de uma vez */
 
 function removeDuplicates(str) {
