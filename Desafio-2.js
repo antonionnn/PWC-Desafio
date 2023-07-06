@@ -1,5 +1,4 @@
-/* Nessa versão, o espaço em branco (" ") é considerado
-como duplicata, por isso, não é repetido mais de uma vez */
+/* Nessa versão, utilizo como input, aquele fornecido no exemplo do email */
 
 function removeDuplicates(str) {
     const uniqueChars = new Set();
@@ -13,6 +12,6 @@ function removeDuplicates(str) {
     return result;
   }
   
-  const userInput = prompt("Digite a frase: ");
+  const userInput = "Hello, World! OpenAI is amazing.";
   const finalOutput = removeDuplicates(userInput);
   console.log(finalOutput);
