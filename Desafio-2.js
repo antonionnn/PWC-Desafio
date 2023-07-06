@@ -12,6 +12,6 @@ function removeDuplicates(str) {
     return result;
   }
   
-  const userInput = "Hello, World! OpenAI is amazing.";
+  const userInput = "Hello, World!";
   const finalOutput = removeDuplicates(userInput);
   console.log(finalOutput);
