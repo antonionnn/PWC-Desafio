@@ -1,4 +1,6 @@
-//Nessa versão, o input é dado pelo usuário
+/*Nessa versão, utilizei como input, aquele
+fornecido no email de exemplo e também removi o erro de digitação
+("input" que estava no local de "prompt") */
 
 function longestPalindromeSubstring(str) {
     let longestPalindrome = "";
@@ -19,7 +21,7 @@ function longestPalindromeSubstring(str) {
     return longestPalindrome;
   }
  
-  const input = input("Digite uma frase: ");
+  const input = "babad";
   const result = longestPalindromeSubstring(input);
   console.log(result);
   
